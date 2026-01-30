@@ -1,3 +1,6 @@
+//if else condition in java
+//age check program
+
 import java.util.*;
 
 class prac{
