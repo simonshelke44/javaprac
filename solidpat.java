@@ -13,8 +13,8 @@
    }
 }*/
 
-
-import java.util.*;
+// box pattern
+/*import java.util.*;
 
 public class solidpat{
     public static void main(String[] args){
@@ -24,7 +24,7 @@ public class solidpat{
 
         System.out.println("ENter the number of columns: ");
         int m =sc.nextInt();
-
+        //nested for loop
         for(int i =1 ; i<=n ; i++){
             for(int j=1; j<=m; j++){
                 if(i==1 || j==1 || i==n || j==m){
@@ -39,5 +39,28 @@ public class solidpat{
 
     }
 
+}*/
+
+
+import java.util.*;
+
+class solidpat{
+    public static void main(String[] args){
+
+        System.out.print("Enter the number of rows: ");
+        Scanner sc = new Scanner(System.in);
+        int n = sc.nextInt();
+
+        System.out.print("Enter the number of columns: ");
+        int m = sc.nextInt();
+
+        for (int i =1; i<=n ; i++){
+            for(int j =1; j<=i ; j++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
 }
+
     
