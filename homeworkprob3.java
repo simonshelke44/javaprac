@@ -2,8 +2,8 @@ import java.util.*;
 
 public class homeworkprob3 {
     public static void main(String[] args){
-        //h1 
-        /*Scanner sc = new Scanner(System.in);
+
+        Scanner sc = new Scanner(System.in);
         System.out.println("Enter the even numbers limit you want: ");
         int n = sc.nextInt();
 
@@ -13,13 +13,6 @@ public class homeworkprob3 {
             }else{
                 continue; // here we are 
             }
-        }*/
-
-        //h2
-        
-        for(; ;) {
-            System.out.println("Apna College");
         }
-
     }
 }
