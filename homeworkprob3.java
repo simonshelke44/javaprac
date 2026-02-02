@@ -1,0 +1,25 @@
+import java.util.*;
+
+public class homeworkprob3 {
+    public static void main(String[] args){
+        //h1 
+        /*Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the even numbers limit you want: ");
+        int n = sc.nextInt();
+
+        for (int i =1; i<= n ; i++){
+            if(i%2 == 0){
+                System.out.println(i);
+            }else{
+                continue; // here we are 
+            }
+        }*/
+
+        //h2
+        
+        for(; ;) {
+            System.out.println("Apna College");
+        }
+
+    }
+}
